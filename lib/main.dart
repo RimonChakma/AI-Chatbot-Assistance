@@ -1,10 +1,10 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import 'home_screen.dart';
 
-void main  (){
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,14 +17,14 @@ class MyApp extends StatelessWidget {
       title: "AI Chat Assistant",
       theme: ThemeData(
         primaryColor: Colors.blue,
-        scaffoldBackgroundColor: Color(0xFF0A0A0A),
-        appBarTheme: AppBarTheme(
+        scaffoldBackgroundColor: const Color(0xFF0A0A0A),
+        appBarTheme: const AppBarTheme(
           backgroundColor: Colors.transparent,
           elevation: 0,
           systemOverlayStyle: SystemUiOverlayStyle.light,
-        )
+        ),
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
