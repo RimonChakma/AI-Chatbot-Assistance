@@ -35,8 +35,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'bindings/home_binding.dart';
-import 'views/home_screen.dart';
+import 'getx_vertion/bindings/home_binding.dart';
+import 'getx_vertion/view/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
